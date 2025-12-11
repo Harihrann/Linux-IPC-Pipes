@@ -25,6 +25,7 @@ Testing the C Program for the desired output.
 # PROGRAM:
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
+```
 #include<stdlib.h>
 
 #include<sys/types.h> 
@@ -160,7 +161,7 @@ if (res == 0) printf("FIFO created\n");
 exit(EXIT_SUCCESS);
 
 }
-
+```
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/65cc6c9d-36d1-4318-a40f-12d425e93ce4)
 ## RESULT:
